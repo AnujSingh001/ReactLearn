@@ -43,7 +43,7 @@ function InputBox({
                 >
                         
                         {currencyOption.map((crruncy)=>{
-                            <option key={crruncy} value={crruncy}>  // remember to use key if we use loops in react or jsx
+                            <option key={crruncy} value={crruncy}>  
                                 {crruncy}
 
                             </option>
