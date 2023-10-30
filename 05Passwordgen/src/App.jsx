@@ -49,6 +49,7 @@ function App() {
           className='outline-none w-full py-1 px-3'
           placeholder='password'
           readOnly
+          ref={passwordref}
            />
           
           <button 
@@ -83,7 +84,7 @@ function App() {
             type="checkbox" 
             defaultChecked = {charAllowed}
             id='charInput'
-            onChange={(e)=>{setNumberAllowed((prev) => !prev)}}
+            onChange={(e)=>{setCharAllowed((prev) => !prev)}}
             />
             <label htmlFor="">Charactor</label>
 
